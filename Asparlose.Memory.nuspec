@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Asparlose.Memory</id>
+    <version>1.0.0</version>
+    <authors>Asparlose</authors>
+    <owners>Asparlose</owners>
+    <licenseUrl>https://github.com/asparlose/Asparlose.Memory/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/asparlose/Asparlose.Memory</projectUrl>
+    <description>A simple memory utility.</description>
+    <copyright>Copyright 2018 Asparlose</copyright>
+    <dependencies>
+      <dependency id="Asparlose.Collections" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="net451\bin\Release\Asparlose.Memory.dll" target="lib\net451" />
+    <file src="netstandard2.0\bin\Debug\netstandard2.0\Asparlose.Memory.dll" target="lib\netstandard2.0" />
+  </files>
+</package>
